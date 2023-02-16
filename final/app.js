@@ -13,13 +13,13 @@ const months = [
   'December',
 ];
 const weekdays = [
-  'Sunday',
-  'Monday',
-  'Tuesday',
-  'Wednesday',
-  'Thursday',
-  'Friday',
-  'Saturday',
+  'Sun',
+  'Mon',
+  'Tues',
+  'Wed',
+  'Thur',
+  'Fri',
+  'Sat',
 ];
 const giveaway = document.querySelector('.giveaway');
 const deadline = document.querySelector('.deadline');
