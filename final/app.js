@@ -86,3 +86,6 @@ function getRemaindingTime() {
 let countdown = setInterval(getRemaindingTime, 1000);
 //set initial values
 getRemaindingTime();
+
+
+//Changes made by Zainu shiraz
