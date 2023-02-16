@@ -1,16 +1,17 @@
 const months = [
-  'January',
+  'Janu',
   'February',
   'March',
   'April',
   'May',
-  'June',
+  'Jun',
   'July',
   'August',
   'September',
   'October',
   'November',
   'December',
+  'January' ,
 ];
 const weekdays = [
   'Sunday',
