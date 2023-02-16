@@ -15,11 +15,11 @@ const months = [
 const weekdays = [
   'Sunday',
   'Monday',
-  'Tuesday',
-  'Wednesday',
-  'Thursday',
-  'Friday',
-  'Saturday',
+  'Tuesda',
+  'W',
+  'T',
+  'F',
+  'S',
 ];
 const giveaway = document.querySelector('.giveaway');
 const deadline = document.querySelector('.deadline');
@@ -78,7 +78,7 @@ function getRemaindingTime() {
   });
 
   if (t < 0) {
-    clearInterval(countdown);
+    clearInterval(countdownTimer);
     deadline.innerHTML = `<h4 class="expired">sorry, this giveaway has expired!</h4>`;
   }
 }
